@@ -7,6 +7,7 @@
     background-position: center;
 }
 
+
 .cabecalho{
     background-color: var(--branco);
     display: flex;
@@ -15,7 +16,7 @@
     position: relative;
 }
 .logo__costa{
-    width: 44px;
+    width: 44px;ratatouille na vida real
     height: 44px;
 }
 .container{
@@ -31,7 +32,7 @@
     position: absolute;
     top: 100%;
     background-color: var(--branco);
-    width: 60vw;  
+    width: 60vw;
 }
 .container__botao{
     display: none;
@@ -65,5 +66,27 @@
         color: rgb(43, 226, 101);
         display: block;
     }
+    .opcoes {
+      display: flex;
+    }
+    .opcoes_item{
+      padding: 0 1em;
+    }
 
+    .opcoes__link{
+      text-decoration: none;
+      color: var(--preto);
+    }
+    .container__imagem--transparente {
+      display: none;
+    }
+    .cabecalho__menu-hamburguer {
+      display: none;
+    }
+    .opcoes__botao:checked-.lista-menu{
+      display: block;
+    }
+    .opcoes__botao{
+      display: none;
+    }
 }
